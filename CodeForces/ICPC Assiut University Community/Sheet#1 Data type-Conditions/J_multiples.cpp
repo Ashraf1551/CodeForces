@@ -4,7 +4,7 @@ using namespace std;
 #define mod 1000000007
 void solve()
 {
-    long long int a, b;
+    ll a, b;
     cin >> a >> b;
 
     if (a % b == 0 || b % a==0)
