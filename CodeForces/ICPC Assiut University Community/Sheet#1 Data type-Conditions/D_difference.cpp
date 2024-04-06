@@ -4,7 +4,7 @@ using namespace std;
 #define mod 1000000007
 void solve()
 {
-    long long int a, b, c, d;
+    ll a, b, c, d;
 
     cin>>a>>b>>c>>d;
     cout<<"Difference = "<<(long long int)(a*b)-(c*d)<<endl;
