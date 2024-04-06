@@ -4,7 +4,7 @@ using namespace std;
 #define mod 1000000007
 void solve()
 {
-	int a;
+    int a;
     long long int b;
     char c;
     float d;
@@ -17,18 +17,21 @@ void solve()
          << "" << d << endl
          << "" << e;
 }
-int main() {
-	ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 #ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 #endif
 
-	ll test=1;
-//cin>>test;
-	while(test--)
-	{
-		solve();
-	}
-	return 0;
+    ll test = 1;
+    // cin>>test;
+    while (test--)
+    {
+        solve();
+    }
+    return 0;
 }
