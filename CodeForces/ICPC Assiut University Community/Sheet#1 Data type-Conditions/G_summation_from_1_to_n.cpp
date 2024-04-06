@@ -4,7 +4,7 @@ using namespace std;
 #define mod 1000000007
 void solve()
 {
-	long long int n;
+	ll n;
 
 	cin >> n;
 	cout << "" << n * (n + 1) / 2;
