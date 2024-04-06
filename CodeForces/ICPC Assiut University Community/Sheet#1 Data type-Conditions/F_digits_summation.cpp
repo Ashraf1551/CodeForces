@@ -4,10 +4,10 @@ using namespace std;
 #define mod 1000000007
 void solve()
 {
-	long long int a, b;
+	ll a, b;
 
 	cin >> a >> b;
-	long long int sum = a % 10 + b % 10;
+	ll sum = a % 10 + b % 10;
 	cout << "" << sum;
 }
 int main()
